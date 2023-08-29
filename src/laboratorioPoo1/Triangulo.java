@@ -54,7 +54,7 @@ public class Triangulo extends FiguraGeometrica {
 
 	@Override
 	public String toString() {
-		return "Triángulo [vertice1=" + vertice1 + ", vertice2=" + vertice2 + ", vertice3=" + vertice3 + "]";
+		return getNombre()+ "[vertice1:" + vertice1 + ", vertice2:" + vertice2 + ", vertice3:" + vertice3 + "]";
 	}
 
 	@Override

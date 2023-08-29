@@ -3,7 +3,7 @@ package laboratorioPoo1;
 //Abstract para indicar una SuperClase
 public abstract class FiguraGeometrica {
 	
-	private String nombre;
+	protected String nombre;
 	
 	//Constructor sin parámetros
 	public FiguraGeometrica() {
